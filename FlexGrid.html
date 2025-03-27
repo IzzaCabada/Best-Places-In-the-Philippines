@@ -1,54 +1,58 @@
+
 <!DOCTYPE html>
-<html lang= "en">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>Document</title>
     <style>
-         /* Define the grif container */
          .grid-container {
          display: grid;
-         grid-template-columns: 1fr 1fr 1fr 1fr; /* two colums with equal width */
-         gap: 20px; /* Gap between grid items */
+         grid-template-columns: 1fr 1fr 1fr 1fr;
+         gap: 20px;
+         }
+         .grid-container img {
+           width: 100%;
+           height: auto;
          }
     </style>
 </head>
-     
 <body>
   <div class="grid-container">
-       <img src="images/Flag-Philippines.png" alt="image 1"> 
-       <p>Philippines 1</p>
-  </div>
+       <div class="grid-item">
+           <img src="images/Flag-Philippines.png" alt="image 1"> 
+           <p>Philippines 1</p>
+       </div>
 
-  <div class="grid-item">
-       <img src="images/manila.png" alt="image 2"> 
-       <p>Manila City 2 </p>
-  </div>
+       <div class="grid-item">
+           <img src="images/manila.png" alt="image 2"> 
+           <p>Manila City 2</p>
+       </div>
 
-  <div class="grid-item">
-       <img src="images/tagaytay.png" alt="image 3"> 
-       <p>Tagaytay City 3 </p>
-  </div>
+       <div class="grid-item">
+           <img src="images/tagaytay.png" alt="image 3"> 
+           <p>Tagaytay City 3</p>
+       </div>
      
-  <div class="grid-item">
-       <img src="images/baguio.png" alt="image 4"> 
-       <p>Baguio City 4 </p>
-  </div>
+       <div class="grid-item">
+           <img src="images/baguio.png" alt="image 4"> 
+           <p>Baguio City 4</p>
+       </div>
   
-  <div class="grid-item">
-       <img src="images/palawan.png" alt="image 5"> 
-       <p>Coron Palawan 5 </p>
-  </div>
+       <div class="grid-item">
+           <img src="images/palawan.png" alt="image 5"> 
+           <p>Coron Palawan 5</p>
+       </div>
 
-  <div class="grid-item">
-       <img src="images/siargao.png" alt="image 6"> 
-       <p>Siargao Island 6 </p>
-  </div>
+       <div class="grid-item">
+           <img src="images/siargao.png" alt="image 6"> 
+           <p>Siargao Island 6</p>
+       </div>
 
-  <div class="grid-item">
-       <img src="images/boracay.png" alt="image 7"> 
-       <p>Caticlan Boracay 7 </p>
+       <div class="grid-item">
+           <img src="images/boracay.png" alt="image 7"> 
+           <p>Caticlan Boracay 7</p>
+       </div>
   </div>
-     
 </body>
 </html>
