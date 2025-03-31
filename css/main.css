@@ -70,3 +70,21 @@ nav p {
   h1,h2 {
     color: black;
   }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .grid-items {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .grid-items img {
+    max-width: 100%;
+    height: auto;
+  }
