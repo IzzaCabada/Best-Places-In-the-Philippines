@@ -1,0 +1,95 @@
+.Image1{
+    float: left;
+    width: 33.33%;
+    height: 100px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(images/Manila.png);
+}
+.Image2{
+    float: left;
+    width: 33.33%;
+    height: 100px;
+    background-position: center;
+    background-size: cover;
+    background-image:  url(images/Tagaytay.png);
+}
+.Image3{
+    float: left;
+    width: 33.33%;
+    height: 100px;
+    background-position: center;
+    background-size: cover;
+    background-image:  url(images/Baguio.png);
+}
+.Image4{
+    float: left;
+    width: 33.33%;
+    height: 100px;
+    background-position: center;
+    background-size: cover;
+    background-image:  url(image/Boracay.png);
+}
+.Image5{
+    float: left;
+    width: 33.33%;
+    height: 100px;
+    background-position: center;
+    background-size: cover;
+    background-image:  url(image/CoronPalawan.png);
+}
+.Image6{
+    float: left;
+    width: 33.33%;
+    height: 100px;
+    background-position: center;
+    background-size: cover;
+    background-image:  url(image/SiargaoIsland.png);
+}
+.Image7{
+    float: left;
+    width: 33.33%;
+    height: 100px;
+    background-position: center;
+    background-size: cover;
+    background-image:  url(image/Cebu.png);
+}
+.Image8{
+    float: left;
+    width: 33.33%;
+    height: 100px;
+    background-position: center;
+    background-size: cover;
+    background-image:  url(image/Bohol.png);
+}
+.Image9{
+    float: left;
+    width: 33.33%;
+    height: 100px;
+    background-position: center;
+    background-size: cover;
+    background-image:  url(image/Batanes.png);
+}
+/*Overlay for text on top of images, with center alignmentand hover effect */
+.image-overlay{
+    width: 100%;
+    height: 100px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    letter-spacing: 5px;
+    font-size: 10px;
+}
+/* Text color inside the overlay */
+.image-overlay h1 {
+    color: red;
+}
+/* Hover effect to the overlay */
+.image-overlay:hover{
+    background-color: transparent;
+}
+
+
+
